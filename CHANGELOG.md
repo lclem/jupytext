@@ -1,6 +1,9 @@
 1.4.2 (2020-03-??)
 ------------------
 
+**Added**
+- Added an example with custom notebook metadata (#469)
+
 **Changed**
 - Use `os.path.samefile` when searching for the kernel that corresponds to the current environment (`--set-kernel -`)
 
