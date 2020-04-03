@@ -29,6 +29,7 @@ _SCRIPT_EXTENSIONS = {'.py': {'language': 'python', 'comment': '#'},
                       '.fsx': {'language': 'fsharp', 'comment': '//'},
                       '.fs': {'language': 'fsharp', 'comment': '//'},
                       '.sos': {'language': 'sos', 'comment': '#'},
+                      '.agda': {'language': 'agda', 'comment': '--'},
                       }
 
 _COMMENT_CHARS = [_SCRIPT_EXTENSIONS[ext]['comment'] for ext in _SCRIPT_EXTENSIONS if
